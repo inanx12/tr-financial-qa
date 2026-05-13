@@ -1,0 +1,617 @@
+{
+  "overall": {
+    "f1": 47.51894445950423,
+    "exact_match": 23.333333333333332,
+    "n_questions": 60
+  },
+  "by_company": {
+    "asels": {
+      "f1": 20.436507936507937,
+      "em": 8.333333333333334,
+      "n": 12
+    },
+    "bimas": {
+      "f1": 55.416666666666664,
+      "em": 41.666666666666664,
+      "n": 12
+    },
+    "cwene": {
+      "f1": 61.125,
+      "em": 16.666666666666668,
+      "n": 12
+    },
+    "ktlev": {
+      "f1": 59.18797626577513,
+      "em": 25.0,
+      "n": 12
+    },
+    "yeotk": {
+      "f1": 41.42857142857142,
+      "em": 25.0,
+      "n": 12
+    }
+  },
+  "by_question_type": {
+    "factoid": {
+      "f1": 52.14512471655329,
+      "em": 28.571428571428573,
+      "n": 21
+    },
+    "numerik": {
+      "f1": 44.27399992254966,
+      "em": 28.571428571428573,
+      "n": 28
+    },
+    "list": {
+      "f1": 38.18027210884354,
+      "em": 0.0,
+      "n": 7
+    },
+    "neden-sonuc": {
+      "f1": 83.05171530977982,
+      "em": 0.0,
+      "n": 3
+    },
+    "definitional": {
+      "f1": 0.0,
+      "em": 0.0,
+      "n": 1
+    }
+  },
+  "per_question": {
+    "asels_001": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "Ercümend ARVAS",
+      "pred": "Ebru TÜMER \nİcrada \ngörevli \ndeğil \nBağımsız \nüye \n22/09/2023 \nhttps://kap.org.tr/tr/Bildirim/1439890 \n \nDeğerlendirildi \nHayır \nEvet  \nAhmet \nYOZGATLIGİL",
+      "question": "ASELSAN'ın Yönetim Kurulu Başkanı kimdir?",
+      "type": "factoid",
+      "company": "asels"
+    },
+    "asels_002": {
+      "f1": 28.571428571428577,
+      "em": 0.0,
+      "gold": "180,4 Milyar TL",
+      "pred": "20,4 \nMilyar \nABD \nDoları",
+      "question": "ASELSAN'ın 31 Aralık 2025 itibarıyla hasılatı ne kadardır?",
+      "type": "numerik",
+      "company": "asels"
+    },
+    "asels_003": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "altı",
+      "pred": "iki",
+      "question": "ASELSAN'da kaç adet Sektör Başkanlığı bulunmaktadır?",
+      "type": "factoid",
+      "company": "asels"
+    },
+    "asels_004": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "9",
+      "pred": "1.005 Milyon ABD \nDoları eşdeğerinde kredi bakiyesi bulunmaktadır.",
+      "question": "ASELSAN'ın yönetim kurulu 31 Aralık 2025 itibarıyla kaç kişiden oluşur?",
+      "type": "factoid",
+      "company": "asels"
+    },
+    "asels_005": {
+      "f1": 100.0,
+      "em": 100.0,
+      "gold": "Ahmet AKYOL",
+      "pred": "Ahmet AKYOL",
+      "question": "ASELSAN'ın Genel Müdürü kimdir?",
+      "type": "factoid",
+      "company": "asels"
+    },
+    "asels_006": {
+      "f1": 50.0,
+      "em": 0.0,
+      "gold": "43",
+      "pred": "2025\n43\n42",
+      "question": "ASELSAN'ın Defense News Top 100'de kaçıncıdır?",
+      "type": "factoid",
+      "company": "asels"
+    },
+    "asels_007": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "4.560.000.000",
+      "pred": "18 Milyon TL",
+      "question": "ASELSAN'ın 31 Aralık 2025 itibarıyla çıkarılmış sermayesi kaç TL'dir?",
+      "type": "numerik",
+      "company": "asels"
+    },
+    "asels_008": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "%15,3",
+      "pred": "180,4 Milyar TL",
+      "question": "ASELSAN'ın 31 Aralık 2025 itibarıyla ihracatının hasılata oranı kaçtır?",
+      "type": "numerik",
+      "company": "asels"
+    },
+    "asels_009": {
+      "f1": 66.66666666666666,
+      "em": 0.0,
+      "gold": "14.143",
+      "pred": "14.143 kişidir",
+      "question": "ASELSAN'ın 31 Aralık 2025 itibarıyla ortalama personel sayısı kaçtır?",
+      "type": "numerik",
+      "company": "asels"
+    },
+    "asels_010": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "%74,2",
+      "pred": "Pay Sahibi\nBin TL",
+      "question": "TSKGV'nin ASELSAN'daki pay oranı yüzde kaçtır?",
+      "type": "numerik",
+      "company": "asels"
+    },
+    "asels_011": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "ASELSANNET, \nASELSAN Bakü, ASELSAN Sivas Hassas Optik, \nASELSAN Global, MKR-IC, ASELSAN Malezya, \nASELSAN \nKonya, \nBİTES, \nASELSAN \nUkrayna, \nASELSAN Latin Amerika, ASELSAN BAE, ASELSAN \nMUSCAT, ASELSAN Filipinler, ASELSAN Malatya ve \nASELSAN Gaziantep",
+      "pred": "Özkaynak yöntemine göre",
+      "question": "ASELSAN'ın tam konsolidasyona tabi bağlı ortaklıkları hangileridir?",
+      "type": "list",
+      "company": "asels"
+    },
+    "asels_012": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "3.383.302",
+      "pred": "Pay Sahibi\nBin TL",
+      "question": "TSKGV'nin ASELSAN'daki payının nominal değeri kaç Bin TL'dir?",
+      "type": "numerik",
+      "company": "asels"
+    },
+    "bimas_001": {
+      "f1": 100.0,
+      "em": 100.0,
+      "gold": "Kazablanka",
+      "pred": "Kazablanka",
+      "question": "Fas'taki ilk BİM mağazası hangi şehirde açılmıştır?",
+      "type": "factoid",
+      "company": "bimas"
+    },
+    "bimas_002": {
+      "f1": 50.0,
+      "em": 0.0,
+      "gold": "Mısır ve Fas",
+      "pred": "Mısır",
+      "question": "BİM hangi yurt dışı ülkelerde faaliyet göstermektedir?",
+      "type": "list",
+      "company": "bimas"
+    },
+    "bimas_003": {
+      "f1": 50.0,
+      "em": 0.0,
+      "gold": "721,1 Milyar TL net satış",
+      "pred": "721 milyar \nTL",
+      "question": "BİM'in 31 Aralık 2025 itibarıyla net satışları kaç TL'dir?",
+      "type": "numerik",
+      "company": "bimas"
+    },
+    "bimas_004": {
+      "f1": 100.0,
+      "em": 100.0,
+      "gold": "14.473",
+      "pred": "14.473",
+      "question": "BİM'in 31 Aralık 2025 itibarıyla toplam mağaza sayısı kaçtır?",
+      "type": "numerik",
+      "company": "bimas"
+    },
+    "bimas_005": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "Mahmud Muhammed Topbaş",
+      "pred": "Hayrettin Bülent Metiner",
+      "question": "BİM'in Yönetim Kurulu Başkanı kimdir?",
+      "type": "factoid",
+      "company": "bimas"
+    },
+    "bimas_006": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "%18,1",
+      "pred": "FİLE",
+      "question": "BİM'in hızlı tüketim ürünlerinde ciro pazar payı kaçtır?",
+      "type": "numerik",
+      "company": "bimas"
+    },
+    "bimas_007": {
+      "f1": 100.0,
+      "em": 100.0,
+      "gold": "96 MW",
+      "pred": "96\nMW",
+      "question": "BİM'in 31 Aralık 2025 itibarıyla toplam GES kurulu gücü nedir?",
+      "type": "numerik",
+      "company": "bimas"
+    },
+    "bimas_008": {
+      "f1": 100.0,
+      "em": 100.0,
+      "gold": "101.663",
+      "pred": "101.663",
+      "question": "BİM'in 31 Aralık 2025 itibarıyla toplam çalışan sayısı kaçtır?",
+      "type": "numerik",
+      "company": "bimas"
+    },
+    "bimas_009": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "Eskişehir",
+      "pred": "Eskişehir’de",
+      "question": "BİM'in Es Global fabrikası hangi şehirde bulunur?",
+      "type": "factoid",
+      "company": "bimas"
+    },
+    "bimas_010": {
+      "f1": 100.0,
+      "em": 100.0,
+      "gold": "1.434",
+      "pred": "1.434",
+      "question": "BİM'in 31 Aralık 2025 itibarıyla tedarikçi sayısı kaçtır?",
+      "type": "numerik",
+      "company": "bimas"
+    },
+    "bimas_011": {
+      "f1": 40.0,
+      "em": 0.0,
+      "gold": "Dost Süt",
+      "pred": "Dost, Emin, Sır",
+      "question": "BİM'in Türkiye'de ilk kendi markalı ürünü nedir?",
+      "type": "factoid",
+      "company": "bimas"
+    },
+    "bimas_012": {
+      "f1": 25.0,
+      "em": 0.0,
+      "gold": "Harras (Gıda), \nActisoft (Temizlik), \nDaycare (Kişisel \nBakım)",
+      "pred": "Actisoft",
+      "question": "FİLE'nin kendi markaları hangileridir?",
+      "type": "list",
+      "company": "bimas"
+    },
+    "cwene_01": {
+      "f1": 50.0,
+      "em": 0.0,
+      "gold": "2010 yılında Antalya",
+      "pred": "2010",
+      "question": "CW Enerji hangi yıl ve şehirde kurulmuştur?",
+      "type": "factoid",
+      "company": "cwene"
+    },
+    "cwene_02": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "Tarzan Tarık Sarvan",
+      "pred": ".",
+      "question": "CW Enerji'nin Yönetim Kurulu Başkanı kimdir?",
+      "type": "factoid",
+      "company": "cwene"
+    },
+    "cwene_03": {
+      "f1": 96.00000000000001,
+      "em": 0.0,
+      "gold": "Orta Doğu Teknik Üniversitesi Güneş Enerjisi Araştırma ve Uygulama Merkezi (ODTÜ \nGÜNAM)",
+      "pred": "Orta Doğu Teknik Üniversitesi Güneş Enerjisi Araştırma ve Uygulama Merkezi (ODTÜ \nGÜNAM) ile",
+      "question": "CW Enerji hangi üniversiteyle iş birliği içindedir?",
+      "type": "factoid",
+      "company": "cwene"
+    },
+    "cwene_04": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "fotovoltaik panel üreticisi ve EPC (Anahtar Teslim Proje) şirketi",
+      "pred": "yenilenebilir enerji kaynaklarından güneş enerjisi",
+      "question": "CW Enerji hangi sektörde faaliyet göstermektedir?",
+      "type": "factoid",
+      "company": "cwene"
+    },
+    "cwene_05": {
+      "f1": 66.66666666666666,
+      "em": 0.0,
+      "gold": "3.173.738.536",
+      "pred": "3.173.738.536 2.751.714.128",
+      "question": "CW Enerji'nin 2025 yılı FAVÖK tutarı nedir?",
+      "type": "numerik",
+      "company": "cwene"
+    },
+    "cwene_06": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "2.215.087.500",
+      "pred": "365.234.734 TL",
+      "question": "2025 yılında net dönem karı kaç TL'dir?",
+      "type": "numerik",
+      "company": "cwene"
+    },
+    "cwene_07": {
+      "f1": 66.66666666666666,
+      "em": 0.0,
+      "gold": "13,54%",
+      "pred": "%3,47’den %13,54",
+      "question": "2025 yılında net kâr marjı yüzde kaçtır?",
+      "type": "numerik",
+      "company": "cwene"
+    },
+    "cwene_08": {
+      "f1": 100.0,
+      "em": 100.0,
+      "gold": "274.631 m²",
+      "pred": "274.631 m²",
+      "question": "CW Enerji'nin toplam faaliyet alanı kaç m²'dir?",
+      "type": "numerik",
+      "company": "cwene"
+    },
+    "cwene_09": {
+      "f1": 100.0,
+      "em": 100.0,
+      "gold": "1.8 \nGW",
+      "pred": "1.8 \nGW",
+      "question": "CW Enerji'nin yıllık PV paneli üretim kapasitesi nedir?",
+      "type": "numerik",
+      "company": "cwene"
+    },
+    "cwene_10": {
+      "f1": 87.5,
+      "em": 0.0,
+      "gold": "Antalya Organize Sanayi Bölgesi ve Antalya Serbest Bölge",
+      "pred": "Antalya Organize Sanayi Bölgesi ve Antalya Serbest Bölge’de",
+      "question": "CW Enerji hangi lokasyonlarda faaliyet göstermektedir?",
+      "type": "list",
+      "company": "cwene"
+    },
+    "cwene_11": {
+      "f1": 71.42857142857143,
+      "em": 0.0,
+      "gold": "UL 61730 ve CSA C22.2",
+      "pred": "ETL onaylı UL 61730 ve CSA C22.2 \nNo. 61730",
+      "question": "CW Enerji hangi Kuzey Amerika sertifikalarını almıştır?",
+      "type": "list",
+      "company": "cwene"
+    },
+    "cwene_12": {
+      "f1": 95.23809523809523,
+      "em": 0.0,
+      "gold": "büyüme ve yatırım \nodaklı finansman kullanımının kaynak yapısındaki payının arttığını göstermektedir",
+      "pred": "büyüme ve yatırım \nodaklı finansman kullanımının kaynak yapısındaki payının arttığını",
+      "question": "Kaldıraç oranındaki artış neyi göstermektedir?",
+      "type": "neden-sonuc",
+      "company": "cwene"
+    },
+    "ktlev_001": {
+      "f1": 66.66666666666666,
+      "em": 0.0,
+      "gold": "27 Eylül 2018 tarihinde İstanbul Ümraniye",
+      "pred": "27 Eylül 2018",
+      "question": "Katılımevim hangi tarihte ve nerede kurulmuştur?",
+      "type": "factoid",
+      "company": "ktlev"
+    },
+    "ktlev_002": {
+      "f1": 100.0,
+      "em": 100.0,
+      "gold": "Serdar Turhan",
+      "pred": "Serdar Turhan",
+      "question": "Katılımevim'in gerçek kişi nihai hâkim pay sahibi kimdir?",
+      "type": "factoid",
+      "company": "ktlev"
+    },
+    "ktlev_003": {
+      "f1": 100.0,
+      "em": 100.0,
+      "gold": "Ahmet ÖZCAN",
+      "pred": "Ahmet ÖZCAN",
+      "question": "Katılımevim'in Genel Müdürü kimdir?",
+      "type": "factoid",
+      "company": "ktlev"
+    },
+    "ktlev_004": {
+      "f1": 85.71428571428571,
+      "em": 0.0,
+      "gold": "6-7 Haziran 2023",
+      "pred": "6-7 Haziran 2023 Tarihlerinde",
+      "question": "Katılımevim halka arzı hangi tarihte gerçekleşmiştir?",
+      "type": "factoid",
+      "company": "ktlev"
+    },
+    "ktlev_005": {
+      "f1": 100.0,
+      "em": 100.0,
+      "gold": "13,43 TL",
+      "pred": "13,43 TL",
+      "question": "Halka arzda pay başına sabit fiyat nedir?",
+      "type": "numerik",
+      "company": "ktlev"
+    },
+    "ktlev_006": {
+      "f1": 35.294117647058826,
+      "em": 0.0,
+      "gold": "805,8 Milyon TL",
+      "pred": "Borsa İstanbul Birincil Piyasa ‘da pay başına \n13,43 TL sabit fiyatla 805,8 Milyon TL",
+      "question": "Katılımevim halka arzının büyüklüğü nedir?",
+      "type": "numerik",
+      "company": "ktlev"
+    },
+    "ktlev_007": {
+      "f1": 25.806451612903224,
+      "em": 0.0,
+      "gold": "474 \nbin 210 yatırımcı",
+      "pred": "473 bin 340 yerli gerçek ve tüzel kişi yatırımcı, \n839 yabancı gerçek kişi yatırımcı, 30 yerli kurumsal yatırımcı,1 yabancı kurumsal yatırımcı olmak üzere 474 \nbin 210 yatırımcı",
+      "question": "Halka arza katılan toplam yatırımcı sayısı kaçtır?",
+      "type": "numerik",
+      "company": "ktlev"
+    },
+    "ktlev_008": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "183.488.098.069",
+      "pred": "73.628.584 TL",
+      "question": "2025 yılı toplam sözleşme hacmi kaç TL'dir?",
+      "type": "numerik",
+      "company": "ktlev"
+    },
+    "ktlev_009": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "41.610",
+      "pred": "31 ARALIK 2025",
+      "question": "2025 yılında kaç teslimat gerçekleşmiştir?",
+      "type": "numerik",
+      "company": "ktlev"
+    },
+    "ktlev_010": {
+      "f1": 66.66666666666666,
+      "em": 0.0,
+      "gold": "62 adet",
+      "pred": "62",
+      "question": "2025 yılında kaç adet yönetim kurulu kararı alınmıştır?",
+      "type": "numerik",
+      "company": "ktlev"
+    },
+    "ktlev_011": {
+      "f1": 33.333333333333336,
+      "em": 0.0,
+      "gold": "Denetim Komitesi, Riskin Erken Saptanması Komitesi ve Kurumsal Yönetim Komitesi",
+      "pred": "Denetim Komitesi",
+      "question": "Yönetim Kurulu bünyesinde hangi komiteler oluşturulmuştur?",
+      "type": "list",
+      "company": "ktlev"
+    },
+    "ktlev_012": {
+      "f1": 96.7741935483871,
+      "em": 0.0,
+      "gold": "mevcut güçlü finansal yapısı, artan kârlılığı, faaliyetlerinden sağlanan nakit akışı ve özkaynak \nseviyesi dikkate alınarak",
+      "pred": "Şirketimizin mevcut güçlü finansal yapısı, artan kârlılığı, faaliyetlerinden sağlanan nakit akışı ve özkaynak \nseviyesi dikkate alınarak",
+      "question": "Bedelli sermaye artırımı süreci neden iptal edilmiştir?",
+      "type": "neden-sonuc",
+      "company": "ktlev"
+    },
+    "yeotk_001": {
+      "f1": 100.0,
+      "em": 100.0,
+      "gold": "Tuzla",
+      "pred": "Tuzla",
+      "question": "Reap Battery tesisi İstanbul'un hangi ilçesinde yer almaktadır?",
+      "type": "factoid",
+      "company": "yeotk"
+    },
+    "yeotk_002": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "Lityum-Demir-Fosfat",
+      "pred": "314 Ah",
+      "question": "LFP kısaltması neyin kısaltmasıdır?",
+      "type": "definitional",
+      "company": "yeotk"
+    },
+    "yeotk_003": {
+      "f1": 100.0,
+      "em": 100.0,
+      "gold": "5 GWh",
+      "pred": "5 GWh",
+      "question": "Reap Battery tesislerinin yıllık üretim kapasitesi ne kadardır?",
+      "type": "numerik",
+      "company": "yeotk"
+    },
+    "yeotk_004": {
+      "f1": 66.66666666666666,
+      "em": 0.0,
+      "gold": "iki",
+      "pred": "iki yıl",
+      "question": "YEO, Fortune 500 listesinde kaç yıl üst üste yer almıştır?",
+      "type": "factoid",
+      "company": "yeotk"
+    },
+    "yeotk_005": {
+      "f1": 40.0,
+      "em": 0.0,
+      "gold": "Ankara Üniversitesi Siyasal Bilgiler Fakültesi Uluslararası İlişkiler Bölümü",
+      "pred": "Ankara Üniversitesi",
+      "question": "Mehmet Öğütçü hangi üniversitede Uluslararası İlişkiler eğitimi aldı?",
+      "type": "factoid",
+      "company": "yeotk"
+    },
+    "yeotk_006": {
+      "f1": 57.14285714285715,
+      "em": 0.0,
+      "gold": "bütçe kısıtları",
+      "pred": "ilgili çağrılardaki bütçe kısıtları nedeniyle",
+      "question": "Başarılı bulunan AR-GE projeleri neden fonlanamamıştır?",
+      "type": "neden-sonuc",
+      "company": "yeotk"
+    },
+    "yeotk_007": {
+      "f1": 100.0,
+      "em": 100.0,
+      "gold": "DOMiNO Ventures",
+      "pred": "DOMiNO Ventures",
+      "question": "Mustafa Kopuk hangi girişim sermayesi fonunun kurucusu ve yönetici ortağıdır?",
+      "type": "factoid",
+      "company": "yeotk"
+    },
+    "yeotk_008": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "373 – 418 kWh",
+      "pred": "500 MWh",
+      "question": "Modüler kabin tipi enerji depolama sistemlerinin kapasite aralığı nedir?",
+      "type": "numerik",
+      "company": "yeotk"
+    },
+    "yeotk_009": {
+      "f1": 33.33333333333333,
+      "em": 0.0,
+      "gold": "3.73 – 5 MWh",
+      "pred": "500 MWh",
+      "question": "Şebeke ölçekli konteyner tipi enerji depolama sistemlerinin kapasite aralığı nedir?",
+      "type": "numerik",
+      "company": "yeotk"
+    },
+    "yeotk_010": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "Telekom, endüstriyel taşıma araçları, hızlı araç şarj \nistasyonları",
+      "pred": "hidrojen \nüretimi, hidrojen saflaştırması ve de hidrojenin enerjiye çevrimi için",
+      "question": "Özel tasarım enerji depolama sistemleri hangi uygulamalar için üretilmektedir?",
+      "type": "list",
+      "company": "yeotk"
+    },
+    "yeotk_011": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "4.275.646.744",
+      "pred": "Vergi Yükümlülüğü",
+      "question": "31.12.2025 itibarıyla ertelenmiş gelirler ne kadardır?",
+      "type": "numerik",
+      "company": "yeotk"
+    },
+    "yeotk_012": {
+      "f1": 0.0,
+      "em": 0.0,
+      "gold": "3.248.494.882",
+      "pred": "(TL)",
+      "question": "31.12.2025 itibarıyla uzun vadeli borçlanmalar ne kadardır?",
+      "type": "numerik",
+      "company": "yeotk"
+    }
+  },
+  "comparison": {
+    "tquad_savasy_baseline": {
+      "f1": 81.08,
+      "em": 62.78
+    },
+    "tquad_ft_model": {
+      "f1": 73.33,
+      "em": 52.13
+    },
+    "kap_ft_model": {
+      "f1": 47.51894445950423,
+      "em": 23.333333333333332
+    }
+  }
+}

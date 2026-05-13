@@ -1,0 +1,17 @@
+# Veri (telif)
+kap_texts.json
+*.pdf
+
+# Model (büyük dosya)
+ft-bert-tr-tquad/
+*.safetensors
+*.bin
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store

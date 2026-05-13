@@ -1,0 +1,61 @@
+id,company,type,question,gold,pred,f1,em
+asels_001,ASELS,factoid,ASELSAN'ın Yönetim Kurulu Başkanı kimdir?,Ercümend ARVAS,Ebru TÜMER  İcrada  görevli  değil  Bağımsız  üye  22/09/2023  https://kap.org.tr/tr/Bildirim/1439890    Değerlendirildi  Hayır  Evet   Ahmet  YOZGATLIGİL,0.00,0
+asels_002,ASELS,numerik,ASELSAN'ın 31 Aralık 2025 itibarıyla hasılatı ne kadardır?,"180,4 Milyar TL","20,4  Milyar  ABD  Doları",28.57,0
+asels_003,ASELS,factoid,ASELSAN'da kaç adet Sektör Başkanlığı bulunmaktadır?,altı,iki,0.00,0
+asels_004,ASELS,factoid,ASELSAN'ın yönetim kurulu 31 Aralık 2025 itibarıyla kaç kişiden oluşur?,9,1.005 Milyon ABD  Doları eşdeğerinde kredi bakiyesi bulunmaktadır.,0.00,0
+asels_005,ASELS,factoid,ASELSAN'ın Genel Müdürü kimdir?,Ahmet AKYOL,Ahmet AKYOL,100.00,100
+asels_006,ASELS,factoid,ASELSAN'ın Defense News Top 100'de kaçıncıdır?,43,2025 43 42,50.00,0
+asels_007,ASELS,numerik,ASELSAN'ın 31 Aralık 2025 itibarıyla çıkarılmış sermayesi kaç TL'dir?,4.560.000.000,18 Milyon TL,0.00,0
+asels_008,ASELS,numerik,ASELSAN'ın 31 Aralık 2025 itibarıyla ihracatının hasılata oranı kaçtır?,"%15,3","180,4 Milyar TL",0.00,0
+asels_009,ASELS,numerik,ASELSAN'ın 31 Aralık 2025 itibarıyla ortalama personel sayısı kaçtır?,14.143,14.143 kişidir,66.67,0
+asels_010,ASELS,numerik,TSKGV'nin ASELSAN'daki pay oranı yüzde kaçtır?,"%74,2",Pay Sahibi Bin TL,0.00,0
+asels_011,ASELS,list,ASELSAN'ın tam konsolidasyona tabi bağlı ortaklıkları hangileridir?,"ASELSANNET,  ASELSAN Bakü, ASELSAN Sivas Hassas Optik,  ASELSAN Global, MKR-IC, ASELSAN Malezya,  ASELSAN  Konya,  BİTES,  ASELSAN  Ukrayna,  ASELSAN Latin Amerika, ASELSAN BAE, ASELSAN  MUSCAT, ASELSAN Filipinler, ASELSAN Malatya ve  ASELSAN Gaziantep",Özkaynak yöntemine göre,0.00,0
+asels_012,ASELS,numerik,TSKGV'nin ASELSAN'daki payının nominal değeri kaç Bin TL'dir?,3.383.302,Pay Sahibi Bin TL,0.00,0
+bimas_001,BIMAS,factoid,Fas'taki ilk BİM mağazası hangi şehirde açılmıştır?,Kazablanka,Kazablanka,100.00,100
+bimas_002,BIMAS,list,BİM hangi yurt dışı ülkelerde faaliyet göstermektedir?,Mısır ve Fas,Mısır,50.00,0
+bimas_003,BIMAS,numerik,BİM'in 31 Aralık 2025 itibarıyla net satışları kaç TL'dir?,"721,1 Milyar TL net satış",721 milyar  TL,50.00,0
+bimas_004,BIMAS,numerik,BİM'in 31 Aralık 2025 itibarıyla toplam mağaza sayısı kaçtır?,14.473,14.473,100.00,100
+bimas_005,BIMAS,factoid,BİM'in Yönetim Kurulu Başkanı kimdir?,Mahmud Muhammed Topbaş,Hayrettin Bülent Metiner,0.00,0
+bimas_006,BIMAS,numerik,BİM'in hızlı tüketim ürünlerinde ciro pazar payı kaçtır?,"%18,1",FİLE,0.00,0
+bimas_007,BIMAS,numerik,BİM'in 31 Aralık 2025 itibarıyla toplam GES kurulu gücü nedir?,96 MW,96 MW,100.00,100
+bimas_008,BIMAS,numerik,BİM'in 31 Aralık 2025 itibarıyla toplam çalışan sayısı kaçtır?,101.663,101.663,100.00,100
+bimas_009,BIMAS,factoid,BİM'in Es Global fabrikası hangi şehirde bulunur?,Eskişehir,Eskişehir’de,0.00,0
+bimas_010,BIMAS,numerik,BİM'in 31 Aralık 2025 itibarıyla tedarikçi sayısı kaçtır?,1.434,1.434,100.00,100
+bimas_011,BIMAS,factoid,BİM'in Türkiye'de ilk kendi markalı ürünü nedir?,Dost Süt,"Dost, Emin, Sır",40.00,0
+bimas_012,BIMAS,list,FİLE'nin kendi markaları hangileridir?,"Harras (Gıda),  Actisoft (Temizlik),  Daycare (Kişisel  Bakım)",Actisoft,25.00,0
+cwene_01,CWENE,factoid,CW Enerji hangi yıl ve şehirde kurulmuştur?,2010 yılında Antalya,2010,50.00,0
+cwene_02,CWENE,factoid,CW Enerji'nin Yönetim Kurulu Başkanı kimdir?,Tarzan Tarık Sarvan,.,0.00,0
+cwene_03,CWENE,factoid,CW Enerji hangi üniversiteyle iş birliği içindedir?,Orta Doğu Teknik Üniversitesi Güneş Enerjisi Araştırma ve Uygulama Merkezi (ODTÜ  GÜNAM),Orta Doğu Teknik Üniversitesi Güneş Enerjisi Araştırma ve Uygulama Merkezi (ODTÜ  GÜNAM) ile,96.00,0
+cwene_04,CWENE,factoid,CW Enerji hangi sektörde faaliyet göstermektedir?,fotovoltaik panel üreticisi ve EPC (Anahtar Teslim Proje) şirketi,yenilenebilir enerji kaynaklarından güneş enerjisi,0.00,0
+cwene_05,CWENE,numerik,CW Enerji'nin 2025 yılı FAVÖK tutarı nedir?,3.173.738.536,3.173.738.536 2.751.714.128,66.67,0
+cwene_06,CWENE,numerik,2025 yılında net dönem karı kaç TL'dir?,2.215.087.500,365.234.734 TL,0.00,0
+cwene_07,CWENE,numerik,2025 yılında net kâr marjı yüzde kaçtır?,"13,54%","%3,47’den %13,54",66.67,0
+cwene_08,CWENE,numerik,CW Enerji'nin toplam faaliyet alanı kaç m²'dir?,274.631 m²,274.631 m²,100.00,100
+cwene_09,CWENE,numerik,CW Enerji'nin yıllık PV paneli üretim kapasitesi nedir?,1.8  GW,1.8  GW,100.00,100
+cwene_10,CWENE,list,CW Enerji hangi lokasyonlarda faaliyet göstermektedir?,Antalya Organize Sanayi Bölgesi ve Antalya Serbest Bölge,Antalya Organize Sanayi Bölgesi ve Antalya Serbest Bölge’de,87.50,0
+cwene_11,CWENE,list,CW Enerji hangi Kuzey Amerika sertifikalarını almıştır?,UL 61730 ve CSA C22.2,ETL onaylı UL 61730 ve CSA C22.2  No. 61730,71.43,0
+cwene_12,CWENE,neden-sonuc,Kaldıraç oranındaki artış neyi göstermektedir?,büyüme ve yatırım  odaklı finansman kullanımının kaynak yapısındaki payının arttığını göstermektedir,büyüme ve yatırım  odaklı finansman kullanımının kaynak yapısındaki payının arttığını,95.24,0
+ktlev_001,KTLEV,factoid,Katılımevim hangi tarihte ve nerede kurulmuştur?,27 Eylül 2018 tarihinde İstanbul Ümraniye,27 Eylül 2018,66.67,0
+ktlev_002,KTLEV,factoid,Katılımevim'in gerçek kişi nihai hâkim pay sahibi kimdir?,Serdar Turhan,Serdar Turhan,100.00,100
+ktlev_003,KTLEV,factoid,Katılımevim'in Genel Müdürü kimdir?,Ahmet ÖZCAN,Ahmet ÖZCAN,100.00,100
+ktlev_004,KTLEV,factoid,Katılımevim halka arzı hangi tarihte gerçekleşmiştir?,6-7 Haziran 2023,6-7 Haziran 2023 Tarihlerinde,85.71,0
+ktlev_005,KTLEV,numerik,Halka arzda pay başına sabit fiyat nedir?,"13,43 TL","13,43 TL",100.00,100
+ktlev_006,KTLEV,numerik,Katılımevim halka arzının büyüklüğü nedir?,"805,8 Milyon TL","Borsa İstanbul Birincil Piyasa ‘da pay başına  13,43 TL sabit fiyatla 805,8 Milyon TL",35.29,0
+ktlev_007,KTLEV,numerik,Halka arza katılan toplam yatırımcı sayısı kaçtır?,474  bin 210 yatırımcı,"473 bin 340 yerli gerçek ve tüzel kişi yatırımcı,  839 yabancı gerçek kişi yatırımcı, 30 yerli kurumsal yatırımcı,1 yabancı kurumsal yatırımcı olmak üzere 474  bin 210 yatırımcı",25.81,0
+ktlev_008,KTLEV,numerik,2025 yılı toplam sözleşme hacmi kaç TL'dir?,183.488.098.069,73.628.584 TL,0.00,0
+ktlev_009,KTLEV,numerik,2025 yılında kaç teslimat gerçekleşmiştir?,41.610,31 ARALIK 2025,0.00,0
+ktlev_010,KTLEV,numerik,2025 yılında kaç adet yönetim kurulu kararı alınmıştır?,62 adet,62,66.67,0
+ktlev_011,KTLEV,list,Yönetim Kurulu bünyesinde hangi komiteler oluşturulmuştur?,"Denetim Komitesi, Riskin Erken Saptanması Komitesi ve Kurumsal Yönetim Komitesi",Denetim Komitesi,33.33,0
+ktlev_012,KTLEV,neden-sonuc,Bedelli sermaye artırımı süreci neden iptal edilmiştir?,"mevcut güçlü finansal yapısı, artan kârlılığı, faaliyetlerinden sağlanan nakit akışı ve özkaynak  seviyesi dikkate alınarak","Şirketimizin mevcut güçlü finansal yapısı, artan kârlılığı, faaliyetlerinden sağlanan nakit akışı ve özkaynak  seviyesi dikkate alınarak",96.77,0
+yeotk_001,YEOTK,factoid,Reap Battery tesisi İstanbul'un hangi ilçesinde yer almaktadır?,Tuzla,Tuzla,100.00,100
+yeotk_002,YEOTK,definitional,LFP kısaltması neyin kısaltmasıdır?,Lityum-Demir-Fosfat,314 Ah,0.00,0
+yeotk_003,YEOTK,numerik,Reap Battery tesislerinin yıllık üretim kapasitesi ne kadardır?,5 GWh,5 GWh,100.00,100
+yeotk_004,YEOTK,factoid,"YEO, Fortune 500 listesinde kaç yıl üst üste yer almıştır?",iki,iki yıl,66.67,0
+yeotk_005,YEOTK,factoid,Mehmet Öğütçü hangi üniversitede Uluslararası İlişkiler eğitimi aldı?,Ankara Üniversitesi Siyasal Bilgiler Fakültesi Uluslararası İlişkiler Bölümü,Ankara Üniversitesi,40.00,0
+yeotk_006,YEOTK,neden-sonuc,Başarılı bulunan AR-GE projeleri neden fonlanamamıştır?,bütçe kısıtları,ilgili çağrılardaki bütçe kısıtları nedeniyle,57.14,0
+yeotk_007,YEOTK,factoid,Mustafa Kopuk hangi girişim sermayesi fonunun kurucusu ve yönetici ortağıdır?,DOMiNO Ventures,DOMiNO Ventures,100.00,100
+yeotk_008,YEOTK,numerik,Modüler kabin tipi enerji depolama sistemlerinin kapasite aralığı nedir?,373 – 418 kWh,500 MWh,0.00,0
+yeotk_009,YEOTK,numerik,Şebeke ölçekli konteyner tipi enerji depolama sistemlerinin kapasite aralığı nedir?,3.73 – 5 MWh,500 MWh,33.33,0
+yeotk_010,YEOTK,list,Özel tasarım enerji depolama sistemleri hangi uygulamalar için üretilmektedir?,"Telekom, endüstriyel taşıma araçları, hızlı araç şarj  istasyonları","hidrojen  üretimi, hidrojen saflaştırması ve de hidrojenin enerjiye çevrimi için",0.00,0
+yeotk_011,YEOTK,numerik,31.12.2025 itibarıyla ertelenmiş gelirler ne kadardır?,4.275.646.744,Vergi Yükümlülüğü,0.00,0
+yeotk_012,YEOTK,numerik,31.12.2025 itibarıyla uzun vadeli borçlanmalar ne kadardır?,3.248.494.882,(TL),0.00,0
